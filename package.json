@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "engines": {
+    "node": ">= 22"
+  },
+  "scripts": {
+    "dev": "node src/index.mjs"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
