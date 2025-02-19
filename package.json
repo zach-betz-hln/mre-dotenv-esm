@@ -4,9 +4,13 @@
     "node": ">= 22"
   },
   "scripts": {
+    "check": "npx @biomejs/biome check --write .",
     "dev": "node src/index.mjs"
   },
   "dependencies": {
     "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4"
   }
 }
