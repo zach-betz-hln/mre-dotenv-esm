@@ -1,9 +1,5 @@
 import assert from 'node:assert/strict';
-
-import * as dotenv from 'dotenv';
-dotenv.config();
-
-const { MY_VAR } = process.env;
+import { MY_VAR } from './lib.mjs';
 
 console.log({ MY_VAR });
 
